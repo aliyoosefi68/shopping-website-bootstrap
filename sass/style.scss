@@ -2,12 +2,13 @@
 @import "fonts";
 * {
   font-family: iranyekan;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 body {
   font-family: iranyekan;
 }
+/*=====================Header Top Style=====================*/
 .header-top {
   .search-box {
     box-shadow: none;
@@ -39,4 +40,75 @@ input::placeholder {
   font-size: 14px;
   color: #666;
   border-radius: 0 10px 10px 0;
+}
+
+.header-top .register a {
+  font-size: 14px;
+  position: relative;
+  z-index: 1;
+  color: #6164a3;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.header-top .register a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22%;
+  height: 100%;
+  background: #f6f6f6;
+  border-radius: 50px 0 0 50px;
+  z-index: -1;
+  transition: 0.3s;
+}
+.header-top .register a:last-child::before {
+  width: 27% !important;
+}
+.header-top .register a:last-child:hover::before {
+  width: 100% !important;
+}
+.header-top .register a:hover::before {
+  width: 100%;
+  border-radius: 5px;
+}
+/*header bottom style*/
+
+.header-bottom {
+  border-top: 1px solid #e6e6e6;
+}
+
+.header-bottom .navbar-top li a {
+  font-size: 14px;
+  color: #6164a3 !important;
+  position: relative;
+  z-index: 1;
+}
+.header-bottom .navbar-top li {
+  position: relative;
+  background: transparent !important;
+}
+.header-bottom .navbar-top li::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 0;
+  background-color: #f6f6f6;
+  width: 0%;
+  border-bottom: 3px solid #6164a3;
+  transition: 0.3s;
+}
+.header-bottom .navbar-top li:hover::before {
+  width: 100%;
+}
+.header-bottom .festival-sell {
+  font-size: 13px;
+}
+.header-bottom .navbar-toggler {
+  box-shadow: none;
+}
+.header-bottom .navbar-toggler-icon {
+  font-size: 14px;
 }
