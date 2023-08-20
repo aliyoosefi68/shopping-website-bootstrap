@@ -1,0 +1,42 @@
+@import "colors";
+@import "fonts";
+* {
+  font-family: iranyekan;
+  text-decoration: none;
+}
+
+body {
+  font-family: iranyekan;
+}
+.header-top {
+  .search-box {
+    box-shadow: none;
+    position: relative;
+
+    input,
+    select,
+    textarea {
+      border-radius: 10px;
+    }
+    input {
+      font-size: 14px;
+    }
+    button {
+      top: 0;
+      left: 0;
+      bottom: 0;
+      color: #cfcfcf;
+      z-index: 4;
+    }
+  }
+}
+
+input::placeholder {
+  font-weight: 300;
+  font-size: 13px;
+}
+.search-box .input-group-text {
+  font-size: 14px;
+  color: #666;
+  border-radius: 0 10px 10px 0;
+}
