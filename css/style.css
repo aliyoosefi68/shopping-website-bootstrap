@@ -54,6 +54,21 @@
   src: url("../fonts/eot/iranyekanwebextrablackfanum.eot");
   src: url("../fonts/eot/iranyekanwebextrablackfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/iranyekanwebextrablackfanum.woff") format("woff");
   /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ }
+.card-hover-1 {
+  position: relative;
+  transition: 0.3s;
+  border-radius: 20px;
+  box-shadow: 0 0 2rem rgba(97, 100, 170, 0.1); }
+  .card-hover-1 strong {
+    color: #262626 !important; }
+  .card-hover-1:hover {
+    box-shadow: 0 0 2rem rgba(97, 100, 170, 0.4);
+    transform: translateY(-10px); }
+
+.slick-track {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important; }
+
 * {
   font-family: iranyekan;
   text-decoration: none !important; }
@@ -138,7 +153,6 @@ input::placeholder {
   right: 0;
   height: 100%;
   z-index: 0;
-  background-color: #f6f6f6;
   width: 0%;
   border-bottom: 3px solid #6164a3;
   transition: 0.3s; }
@@ -154,5 +168,17 @@ input::placeholder {
 
 .header-bottom .navbar-toggler-icon {
   font-size: 14px; }
+
+.header-bottom .navbar-toggler {
+  border: none;
+  cursor: pointer; }
+
+.offcanvas-body .navbar-nav a {
+  font-size: 14px;
+  color: #6164a3;
+  font-weight: bold;
+  margin-top: 10px; }
+
+/*--------------------------------------------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */

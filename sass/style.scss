@@ -1,5 +1,6 @@
 @import "colors";
 @import "fonts";
+@import "homestyle";
 * {
   font-family: iranyekan;
   text-decoration: none !important;
@@ -95,7 +96,7 @@ input::placeholder {
   right: 0;
   height: 100%;
   z-index: 0;
-  background-color: #f6f6f6;
+
   width: 0%;
   border-bottom: 3px solid #6164a3;
   transition: 0.3s;
@@ -112,3 +113,16 @@ input::placeholder {
 .header-bottom .navbar-toggler-icon {
   font-size: 14px;
 }
+.header-bottom .navbar-toggler {
+  border: none;
+  cursor: pointer;
+}
+
+.offcanvas-body .navbar-nav a {
+  font-size: 14px;
+  color: #6164a3;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*--------------------------------------------------------------------------------------*/

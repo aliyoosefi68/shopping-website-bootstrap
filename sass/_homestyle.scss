@@ -1,0 +1,17 @@
+.card-hover-1 {
+  position: relative;
+  transition: 0.3s;
+  border-radius: 20px;
+  box-shadow: 0 0 2rem rgba(97, 100, 170, 0.1);
+  strong {
+    color: #262626 !important;
+  }
+  &:hover {
+    box-shadow: 0 0 2rem rgba(97, 100, 170, 0.4);
+    transform: translateY(-10px);
+  }
+}
+.slick-track {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
