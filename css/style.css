@@ -504,6 +504,56 @@ html {
   .login .card-footer a {
     font-weight: 800; }
 
+.asked-main-title {
+  font-weight: 800 !important;
+  font-size: 24px; }
+
+.asked-main-subtitel {
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-size: 13px; }
+
+.question .card-header {
+  border-radius: 15px !important; }
+
+.qa-session .accordion-item {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 0 2rem rgba(97, 100, 180, 0.089); }
+  .qa-session .accordion-item .accordion-header button {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px; }
+  .qa-session .accordion-item .accordion-header button:not(.collapsed) {
+    background-color: #fff; }
+  .qa-session .accordion-item .accordion-body p {
+    padding: 20px;
+    font-weight: 300 !important;
+    font-size: 14px;
+    line-height: 2.2;
+    color: gray; }
+  .qa-session .accordion-item .accordion-button:focus {
+    border-bottom: 1px solid silver;
+    box-shadow: none; }
+  .qa-session .accordion-item .accordion-button.collapsed {
+    border: none; }
+
+.cu-servic {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem rgba(97, 100, 180, 0.089); }
+  .cu-servic .first a {
+    color: #6a7281;
+    font-weight: 700;
+    font-size: 18px; }
+  .cu-servic .second a {
+    color: #fff;
+    background-color: #5bbeff;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 7px; }
+
 @font-face {
   font-family: iranyekan;
   font-style: normal;
