@@ -117,17 +117,17 @@ html {
   transform: translateY(-10px);
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
 }
-.card-img-top {
+.card-img-home {
   position: relative;
   overflow: hidden !important;
   text-align: center;
 }
-.card-img-top img {
+.card-img-home img {
   height: 13rem;
   clip-path: ellipse(275px 175px at 50% 15%);
   margin: 0 auto;
 }
-.card-img-top .overlay-card {
+.card-img-home .overlay-card {
   position: absolute;
   top: 0;
   left: 0;
@@ -145,7 +145,7 @@ html {
   transition: 0.3s;
   cursor: pointer;
 }
-.card-img-top:hover .overlay-card {
+.card-img-home:hover .overlay-card {
   height: 100%;
   visibility: visible;
   opacity: 1;
