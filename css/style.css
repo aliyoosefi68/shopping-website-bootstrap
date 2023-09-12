@@ -587,6 +587,48 @@ html {
   .label-card:hover {
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2); }
 
+.continu-sell {
+  background-color: #5bbeff;
+  color: #fff;
+  padding: 5px 25px;
+  transition: 0.2s; }
+  .continu-sell:hover {
+    background-color: #247bb5;
+    color: #fff; }
+
+.check-out-btn {
+  background: #43a047;
+  color: #fff;
+  transition: 0.2s;
+  padding: 5px 25px; }
+  .check-out-btn:hover {
+    background-color: #2e7d32;
+    color: #fff; }
+
+.contact-us .small-contact {
+  font-size: 12px;
+  letter-spacing: 2px; }
+
+.desc-contact {
+  font-size: 13px;
+  line-height: 2.2;
+  text-align: justify;
+  color: gray;
+  font-weight: 300; }
+
+.link-dl-contact textarea::placeholder {
+  font-size: 11px;
+  font-weight: 300;
+  color: gray; }
+
+.link-dl-contact button {
+  background: #5bbeff;
+  color: #fff;
+  width: 100%; }
+  .link-dl-contact button:hover {
+    background: #2e97de;
+    color: #fff; }
+
 @font-face {
   font-family: iranyekan;
   font-style: normal;
