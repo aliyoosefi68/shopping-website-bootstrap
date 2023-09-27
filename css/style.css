@@ -201,7 +201,7 @@ html {
 .title-product {
   font-weight: 700;
   color: #53609d;
-  font-size: 17px; }
+  font-size: 14px; }
 
 .card-hover-2 .card-body small {
   font-weight: 400;
@@ -806,6 +806,141 @@ html {
       background-color: #fff;
       color: #5bbeff;
       border-color: #5bbeff; }
+
+.pishnahad a {
+  background-color: rgba(83, 96, 157, 0.07);
+  color: #666666;
+  font-size: 11px;
+  transition: 0.3s;
+  font-weight: 300;
+  border-radius: 5px;
+  margin-bottom: 5px !important;
+  display: inline-block; }
+  .pishnahad a:hover {
+    color: #fff;
+    background-color: #53609d; }
+
+.custom-check small {
+  font-size: 13px !important;
+  color: gray;
+  font-weight: 400; }
+
+.price-div {
+  justify-content: space-between; }
+  .price-div small {
+    font-size: 11px;
+    opacity: 0.5; }
+  .price-div p {
+    display: inline-block;
+    font-size: 12px; }
+
+.profile {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .profile .card-footer {
+    border-radius: 0 0 15px 15px;
+    background-color: rgba(83, 96, 157, 0.04); }
+    .profile .card-footer a {
+      color: #9ea4c4;
+      font-size: 12px;
+      width: 50%;
+      text-align: center; }
+
+.profile-sidebar {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .profile-sidebar .card-header p {
+    color: #fff;
+    display: inline-block;
+    background-color: rgba(83, 96, 157, 0.8);
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    margin-top: 0;
+    font-weight: 600; }
+  .profile-sidebar .nav .nav-item .nav-link {
+    font-size: 12px;
+    color: #666666;
+    transition: 0.3s; }
+  .profile-sidebar .nav .nav-item .nav-link.active {
+    background-color: rgba(83, 96, 157, 0.2); }
+
+.profile-content {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .profile-content .card-header p {
+    background-color: rgba(83, 96, 157, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    font-weight: 600; }
+
+.info-user div {
+  width: 33%; }
+.info-user p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+  opacity: 0.7; }
+.info-user p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 500;
+  color: #666666; }
+
+.info-user-footer {
+  background-color: rgba(83, 96, 157, 0.04);
+  border-radius: 0 0 15px 15px !important;
+  cursor: pointer;
+  transition: 0.3s; }
+  .info-user-footer:hover {
+    background-color: rgba(83, 96, 157, 0.8); }
+    .info-user-footer:hover a {
+      color: #fff; }
+  .info-user-footer a {
+    color: #9ea4c4;
+    font-size: 13px; }
+
+.my-orders {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .my-orders .card-header p {
+    background-color: rgba(83, 96, 157, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    font-weight: 600; }
+  .my-orders table {
+    font-size: 13px; }
+
+.my-favor {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .my-favor .card-header p {
+    background-color: rgba(83, 96, 157, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    font-weight: 600; }
+  .my-favor .info-user2 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px !important;
+    border-radius: 10px; }
+    .my-favor .info-user2:hover {
+      background-color: rgba(83, 96, 157, 0.04); }
+    .my-favor .info-user2 a {
+      color: #666666; }
+      .my-favor .info-user2 a small:nth-child(2) {
+        color: #5bbeff; }
+    .my-favor .info-user2 .trash {
+      color: #7b7da3;
+      background-color: #e7edfa;
+      padding: 5px 9px !important;
+      border-radius: 10px; }
+  .my-favor img {
+    width: 15%; }
 
 @font-face {
   font-family: iranyekan;
