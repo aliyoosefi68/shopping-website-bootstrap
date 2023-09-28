@@ -942,6 +942,59 @@ html {
   .my-favor img {
     width: 15%; }
 
+.my-address {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .my-address .card-header p {
+    background-color: rgba(83, 96, 157, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    font-weight: 600; }
+  .my-address table {
+    font-size: 13px;
+    color: #595b76 !important; }
+    .my-address table a {
+      color: #5bbeff;
+      font-size: 12px; }
+  .my-address h6 {
+    font-size: 15px; }
+  .my-address .card-body p {
+    font-size: 13px;
+    color: #666666; }
+
+.personal-info {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .personal-info .card-header p {
+    background-color: rgba(83, 96, 157, 0.8);
+    display: inline-block;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 0 0 15px 15px;
+    font-weight: 600; }
+
+.personal-info .form-group span {
+  font-size: 13px; }
+.personal-info .form-group input {
+  font-size: 12px;
+  color: #595b76; }
+.personal-info textarea {
+  font-size: 12px;
+  color: #595b76;
+  line-height: 2; }
+.personal-info small {
+  font-size: 13px !important;
+  font-weight: 600; }
+.personal-info .save-btn {
+  background: #5bbeff;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600; }
+  .personal-info .save-btn svg {
+    font-size: 10px; }
+
 @font-face {
   font-family: iranyekan;
   font-style: normal;
