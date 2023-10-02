@@ -995,6 +995,34 @@ html {
   .personal-info .save-btn svg {
     font-size: 10px; }
 
+.product {
+  border-radius: 15px;
+  box-shadow: 0 0 2rem #6a728727; }
+  .product .side-icon li a {
+    background-color: #e7edfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #7b7da3;
+    padding: 5px; }
+    .product .side-icon li a:hover {
+      background-color: #7b7da3;
+      color: #fff; }
+
+.changer li {
+  border-radius: 10px !important;
+  box-shadow: 0 0 2rem #6a728727 !important;
+  overflow: hidden; }
+
+.line1 strong {
+  font-weight: 500 !important;
+  font-size: 13px; }
+
 @font-face {
   font-family: iranyekan;
   font-style: normal;
