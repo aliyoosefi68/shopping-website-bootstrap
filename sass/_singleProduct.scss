@@ -37,3 +37,71 @@
     font-size: 13px;
   }
 }
+.line2 {
+  strong {
+    font-weight: 600;
+    font-size: 16;
+  }
+  small {
+    font-size: 13px;
+    opacity: 0.8;
+    svg {
+      font-size: 10px;
+    }
+  }
+}
+.garanty,
+.colors {
+  select {
+    font-size: 13px;
+    color: gray;
+    line-height: 2;
+    option {
+      font-size: 13px;
+      color: gray;
+      line-height: 2;
+      padding: 20px 0;
+    }
+  }
+}
+.price-all {
+  padding: 15px 40px;
+  h6 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  small {
+    font-size: 13px;
+  }
+  a {
+    display: block;
+
+    background-color: #5dc9ff;
+    color: #fff;
+    transition: 0.2s;
+    &:hover {
+      background-color: #437c98;
+      color: #fff;
+    }
+  }
+}
+.info-prudct {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 2rem #6a728727;
+  .filter-info-product {
+    li {
+      a {
+        color: #595b76;
+        font-size: 14px;
+        transition: 0.3s;
+        border-bottom: 1px solid transparent;
+
+        &:active {
+          color: #5dc9ff;
+          border-color: #5dc9ff;
+        }
+      }
+    }
+  }
+}
