@@ -1069,9 +1069,35 @@ html {
     font-size: 14px;
     transition: 0.3s;
     border-bottom: 1px solid transparent; }
-    .info-prudct .filter-info-product li a:active {
-      color: #5dc9ff;
-      border-color: #5dc9ff; }
+
+.filter-info-product li a.active {
+  color: #5dc9ff;
+  border-bottom: 1px solid #5dc9ff; }
+
+#tabone {
+  color: #595b76; }
+  #tabone h5 {
+    font-size: 16px;
+    font-weight: 700; }
+  #tabone small {
+    font-size: 12px;
+    opacity: 0.8; }
+  #tabone table {
+    font-size: 13px;
+    border-spacing: 12px !important;
+    border-collapse: separate; }
+  #tabone td {
+    padding: 10px 20px; }
+    #tabone td:nth-child(1) {
+      width: 20%;
+      margin-left: 10px !important; }
+
+#tabtwo p {
+  font-size: 14px;
+  color: #595b76;
+  font-weight: 400;
+  line-height: 2;
+  text-align: justify; }
 
 @font-face {
   font-family: iranyekan;
